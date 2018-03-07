@@ -1,0 +1,339 @@
+body        
+{
+	margin: 5px; 
+	background-color: #FFFFFF; 
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	color: #001840;
+}
+
+a { color: #112951 }
+a:visited { color: #112951 }
+a:hover { color: #556d95 }
+
+input.DisabledBox
+{
+	color: #000000;
+	border: solid 0px #000000;
+	cursor: default;
+	font-weight: bold;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+}
+
+.tabletext { font-family: Arial, Sans-Serif; font-size: 12px; color: #112951 }
+.tabletext a { color: #112951 }
+.tabletext a:visited { color: #112951 }
+.tabletext a:hover { color: #556d95 }
+.tabletext tr { background-color: #c8dff8 }
+.tabletext .headerrow { COLOR: #ffffff; BACKGROUND-COLOR: #556d95 }
+
+.selectedtabletext { font-family: Arial, Sans-Serif; font-size: 12px; color: #112951 }
+.selectedtabletext a { color: #112951 }
+.selectedtabletext a:visited { color: #112951 }
+.selectedtabletext a:hover { color: #556d95 }
+.selectedtabletext tr { background-color: #FFFFCC }
+.selectedtabletext .headerrow { COLOR: #ffffff; BACKGROUND-COLOR: #888855 }
+.selectedtabletext .playerturn { COLOR: #112951; BACKGROUND-COLOR: #55EE55 }
+
+
+h1        { font-family: times new roman, times, serif; font-size: 22pt; color: #112951; font-weight: normal; font-variant: small-caps; margin-top: 5px; margin-bottom: 5px }
+h1:first-letter { font-size:26pt }
+h2        { font-family: times new roman, times, serif; font-size: 18pt; color: #112951; font-weight: normal; font-variant: small-caps; margin-top: 15px; margin-bottom: 5px  }
+h3        { font-family: times new roman, times, serif; font-size: 16pt; color: #112951; font-weight: normal; font-variant: small-caps; margin-top: 15px; margin-bottom: 5px  }
+h4        { font-family: times new roman, times, serif; font-size: 14pt; color: #112951; font-weight: normal; font-variant: small-caps; margin-top: 10px; margin-bottom: 5px  }
+h5        { font-family: times new roman, times, serif; font-size: 13pt; color: #112951; font-weight: normal; font-variant: small-caps; margin-top: 10px; margin-bottom: 5px  }
+h6        { font-family: times new roman, times, serif; font-size: 12pt; color: #112951; font-weight: normal; font-variant: small-caps; margin-top: 10px; margin-bottom: 5px  }
+
+/* Data Grid */
+
+.GridStyle1
+{
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	color: #112951;
+	border: solid 0px;
+	width: auto;
+}
+
+.GridStyle1 a { color: #112951 }
+.GridStyle1 a:visited { color: #112951 }
+.GridStyle1 a:hover { color: #556d95 }
+
+.GridStyle1 .HeaderStyle
+{
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #556d95;
+	border: solid 0px;
+}
+
+.GridStyle1 .ItemStyle
+{
+	background-color: #c8dff8;
+	border: solid 0px;
+}
+
+.GridStyle1 .EditItemStyle
+{
+	background-color: #FFFFCC;
+	border: solid 0px;
+}
+
+.GridStyle1 select
+{
+	/*background-color: #FFFFCC;*/
+	font-size: 10px;
+	color: #112951;
+	width: auto;
+}
+
+.GridStyle1 input
+{
+	/*background-color: #FFFFCC;*/
+	font-size: 12px;
+	color: #112951;
+	width: 100%;
+}
+
+/* The Bracket */
+
+#Legend
+{
+	position: absolute;
+	left:0px;
+    height: 20px;
+	width: 900px;
+	text-align: center;
+	top: 490px;
+	font-size: 11px;
+	font-weight: bolder;
+    color: Black;
+}
+
+#Legend td
+{
+    height: 20px;
+	font-size: 11px;
+	font-weight: bolder;
+    color: Black;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-BOTTOM: #000000 1px solid;
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid; 
+}
+
+
+#MidwestHeader
+{
+	position: absolute;
+	left:470px;
+	top: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#MidwestBracket
+{
+	position: absolute;
+	left:470px;
+	top: 40px;
+}
+
+#SouthHeader
+{
+	position: absolute;
+	left:220px;
+	top: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#SouthBracket
+{
+	position: absolute;
+	left:220px;
+	top: 40px;
+}
+
+
+#WestHeader
+{
+	position: absolute;
+	left:680px;
+	top: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#WestBracket
+{
+	position: absolute;
+	left:680px;
+	top: 40px;
+}
+
+#EastHeader
+{
+	position: absolute;
+	left:10px;
+	top: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#EastBracket
+{
+	position: absolute;
+	left:10px;
+	top: 40px;
+}
+
+
+.firstroundbox    
+{ 
+	text-align: left;
+    vertical-align: middle;
+    height: 20px;
+	font-size: 11px;
+	font-weight: bolder;
+    color: Black;
+    WIDTH: 200px;
+    POSITION: absolute;
+    padding: 2px;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-BOTTOM: #000000 1px solid;
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid; 
+}
+
+#1 
+{
+	left: 0px;
+	top: 0px;
+}
+
+#16
+{
+	left: 0px;
+	top: 25px;
+}
+
+#8 
+{
+	left: 0px;
+	top: 55px;
+}
+
+#9
+{
+	left: 0px;
+	top: 80px;
+}
+
+#5 
+{
+	left: 0px;
+	top: 110px;
+}
+
+#12
+{
+	left: 0px;
+	top: 135px;
+}
+
+#4 
+{
+	left: 0px;
+	top: 165px;
+}
+
+#13
+{
+	left: 0px;
+	top: 190px;
+}
+
+#6 
+{
+	left: 0px;
+	top: 220px;
+}
+
+#11
+{
+	left: 0px;
+	top: 245px;
+}
+
+#3 
+{
+	left: 0px;
+	top: 275px;
+}
+
+#14
+{
+	left: 0px;
+	top: 300px;
+}
+
+#7 
+{
+	left: 0px;
+	top: 330px;
+}
+
+#10
+{
+	left: 0px;
+	top: 355px;
+}
+
+#2 
+{
+	left: 0px;
+	top: 385px;
+}
+
+#15
+{
+	left: 0px;
+	top: 410px;
+}
+
+
+table.firstRoundTable td.firstRoundCell
+{ 
+	text-align: left;
+    vertical-align: middle;
+    height: 20px;
+	font-size: 11px;
+	font-weight: bolder;
+    color: Black;
+    WIDTH: 200px;
+    padding: 2px;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-BOTTOM: #000000 1px solid;
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid; 
+}
+
+table.firstRoundTable td.firstRoundSpacerCell
+{ 
+    height: 5px;
+}
+
+table.legendTable td
+{
+    height: 20px;
+	font-size: 11px;
+	font-weight: bolder;
+    color: Black;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-BOTTOM: #000000 1px solid;
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid; 
+}
